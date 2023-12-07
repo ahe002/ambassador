@@ -1,0 +1,160 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1{
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+.container{
+    break-inside: avoid;
+}
+
+.text{
+    color:white;
+  
+}
+
+.title{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.subtitle{
+    font-weight: bold;
+}
+
+.para{
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.column{
+    column-count: 2;
+    break-inside: avoid;
+}
+
+.griding-a{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    background-color: #be7600;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.griding-b{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.right{
+    text-align: right;
+    
+}
+
+.left{
+    text-align: left;
+    
+}
+.center{
+    text-align: center;
+}
+
+.face{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    width:15%;
+}
+
+.ambass{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width:50%;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.beer{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width:450px;
+}
+
+.dining{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width:700px;
+    
+}
+
+.griding-c{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.griding-d{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.image{
+    width: 100%; 
+    height: 250px; 
+    overflow: hidden; 
+    
+}
+
+.frame {
+    border: 3px solid white;
+    margin: auto;
+    padding: 15px 10px;
+}
+
+
+.color{
+    color:#800000;
+}
+
