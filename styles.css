@@ -33,20 +33,27 @@ body{
 .title{
     font-weight: bolder;
     font-style: italic;
+    font-size: 35px;
 }
 
 .subtitle{
     font-weight: bold;
+    font-size: 30px;
 }
 
 .para{
     font-weight: lighter;
     font-style: italic;
+    font-size: 25px;
 }
 
 .column{
     column-count: 2;
     break-inside: avoid;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3%;
+    margin-left: 3%;
 }
 
 .griding-a{
